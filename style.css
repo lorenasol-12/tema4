@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display:inline-block;
+    background-image: url(fondo-flex.jpg);
+    min-width: 150vh;
+    min-height: 150vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-between;
+    margin:25px;
+   
+}
+.caja1{
+    display: flex;
+   justify-content: space-around;
+   padding: 180px 0px 0px 25px;
+}
+.caja2{ 
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.caja3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
